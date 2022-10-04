@@ -34,6 +34,16 @@ body {
     height: 60%;
 }
 
+@media (max-width: 768px) {
+ .logo {
+    display: none;
+ }
+
+ .main-header {
+    justify-content: center;
+ }
+}
+
 .main-menu {
     display: flex;
     justify-content: center;
