@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exposición</title>
+    <link rel="shortcut icon" href="logo.img" type="application/atom+xml">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div id="header" class="main-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Senati_Per%C3%BA_logo.svg/1280px-Senati_Per%C3%BA_logo.svg.png"
+            class="logo">
+
+        <nav class="main-menu">
+            <a class="menu-item" href="index.html">Inicio</a>
+            <a class="menu-item" href="actividades.html">Actividades </a>
+            <a class="menu-item" href="requerimientos.html">Requerimientos</a>
+        </nav>
+    </div>
+
+    <header>
+
+        <div class="textos">
+            <h1 class="titulo">Requerimientos <br>Funcionales y no funcionales</h1>
+        </div>
+
+        <div class="sesgoabajo"></div>
+    </header>
+    <main>
+        <section class="acerca-de">
+
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Requerimientos</h2>
+                <h3 class="slogan">---------------</h3>
+                <p class="parrafo" style="font-size: 2rem; line-height:1.5; text-align: center;">Los Requerimientos de
+                    Software son las necesidades que requiere que el Sistema deba de cumplir de
+                    manera satisfactoria</p>
+
+                <div style="text-align: center;">
+                    <img src="https://monivela.files.wordpress.com/2014/09/analisis-de-requerimientos.jpg?w=768&h=640"
+                        style="width: 50%; margin: 2rem;">
+                </div>
+
+            </div>
+        </section>
+
+        
+
+
+        <section class="fondo">
+
+            <div class="sesgoarriba"></div>
+
+            <div class="contenedor" style="margin-bottom: 9rem">
+                <h2 class="titulo-funcionales"> REQUERIMIENTOS <br> FUNCIONALES</h2>
+                <h3 class="subtitulo-funcionales">
+                    <p style="font-size: 2rem; margin-top:2rem; ">Los requisitos funcionales son características o
+                        funciones del producto que los desarrolladores deben implementar para permitir a los usuarios
+                        realizar sus tareas</p>
+                </h3>
+            </div>
+
+            
+
+            <div class="sesgoabajo-unico"></div>
+        </section>
+
+        <section class="miembros">
+        
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">Deben incluir: </h2>
+                <ul style="padding-left: 20%; font-size: 2rem; margin-top: 2rem;">
+                    <li>Los detalles de las operaciones</li>
+                    <li>La logica del sistema</li>
+                    <li>Información de los flujos de trabajo</li>
+                    <li>Definir quienes pueden modificar los datos</li>
+                </ul>   
+            </div>
+
+        </section>
+        <section class="fondo">
+
+            <div class="sesgoarriba"></div>
+
+            <div class="contenedor" style="margin-bottom: 9rem">
+                <h2 class="titulo-funcionales"> REQUERIMIENTOS <br> NO FUNCIONALES</h2>
+                <h3 class="subtitulo-funcionales">
+                    <p style="font-size: 2rem; margin-top:2rem; ">Son aquellos requisitos que no son especificados por
+                        el sistema, más bien trata de las características que debe tener el
+                        sistema.
+                    </p>
+                </h3>
+            </div>
+
+            <div class="sesgoabajo-unico"></div>
+
+            
+        </section>
+
+        <div class="contenedor">
+            <h2 class="sobre-nosotros">Algunos ejemplos: </h2>
+            <ul style="padding-left: 20%; font-size: 2rem; margin-top: 2rem;">
+                <li>Velocidad</li>
+                <li>Disponibilidad</li>
+                <li>Capacidad</li>
+                <li>Usabilidad</li>
+            </ul>
+        </div>
+
+        
+        <section class="galeria">
+
+            <div class="sesgoarriba"></div>
+
+            <div class="imagenes none">
+                <img src="img/1.jpg" alt="">
+            </div>
+
+            <div class="imagenes">
+                <img src="img/3.jpg" alt="">
+            </div>
+
+            <div class="imagenes">
+                <img src="img/2.jpg" alt="">
+
+                <div class="encima">
+                    <h2></h2>
+
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="imagenes">
+                <img src="img/4.jpeg" alt="">
+
+            </div>
+
+            <div class="imagenes none">
+                <img src="img/5.jpeg" alt="">
+            </div>
+
+            <div class="sesgoabajo"></div>
+        </section>
+    </main>
+    <footer>
+       
+    </footer>
+
+    <script>
+        let header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            let scroll = window.scrollY;
+            if (scroll > 10) {
+                header.style.background = "#121212"
+
+            } else {
+                header.style.background = "transparent"
+            }
+        })
+    </script>
+</body>
+
+</html>
